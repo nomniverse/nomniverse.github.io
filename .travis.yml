@@ -12,7 +12,7 @@ env:
         - DEPLOY_BRANCH="source"
 
 before_install:
-    - openssl aes-256-cbc -K $encrypted_e142edefc603_key -iv $encrypted_e142edefc603_iv -in id_rsa.enc -out id_rsa -d
+    - openssl aes-256-cbc -K $encrypted_5fbba4bc4773_key -iv $encrypted_5fbba4bc4773_iv -in id_rsa.enc -out id_rsa -d
 
 script:
     - chmod a+x binaries/hugo
