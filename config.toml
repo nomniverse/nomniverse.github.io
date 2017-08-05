@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://nomniverse.github.io/"
 languageCode = "en-us"
-title = "Agency"
+title = "Nomniverse"
 theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
@@ -17,8 +17,8 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "Your name"
-  description = "Your description"
+  name = "Nomniverse"
+  description = "Some friends making games"
 
   # Link custom assets relative to /static
   custom_css = []
@@ -45,11 +45,11 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "The Agency"
+    brand = "Nomniverse"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
-    services = "Services"
-    portfolio = "Portfolio"
+    services = "What We Do"
+    portfolio = "Creations"
     about = "About"
     team = "Team"
     contact = "Contact"
@@ -66,8 +66,8 @@ googleAnalytics = ""
 
     # postpended links
     [[menu.postpend]]
-      url = "http://gohugo.io"
-      name = "External link"
+      url = "https://gamejolt.com/@Nomniverse"
+      name = "Game Jolt"
       weight = 10
 
 
@@ -76,34 +76,34 @@ googleAnalytics = ""
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "Welcome To Our Studio!"
-    subtitle = "It's nice to meet you"
+    subtitle = "Take part in our universe"
     buttonText = "Tell me more"
 
 
   # Services section
   [params.services]
     enable = true
-    title = "Services"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "What We Do"
+    subtitle = "We strive to create a whole universe."
 
     [[params.services.row]]
 
     [[params.services.row.list]]
-      icon = "fa-shopping-cart"
-      title = "E-Commerce"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      icon = "fa-book"
+      title = "Comics"
+      description = "We create comics based off those we know, mainly placing us in the superhero genre."
       url = "#"
 
     [[params.services.row.list]]
-      icon = "fa-laptop"
-      title = "Responsive Design"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      icon = "fa-gamepad"
+      title = "Video Games"
+      description = "We try to provide simple, yet creative, video games for all to enjoy."
       url = "#"
-
-    [[params.services.row.list]]
-      icon = "fa-lock"
-      title = "Web"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+	  
+	[[params.services.row.list]]
+      icon = "fa-video-camera"
+      title = "Videos"
+      description = "A future venture, Nomniverse has plans to create short films."
       url = "#"
 
   # Portfolio section
@@ -113,11 +113,11 @@ googleAnalytics = ""
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Portfolio"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "Creations"
+    subtitle = "Check out some of what we've made."
 
     [params.portfolio.modal]
-      client = "Client"
+      client = "Target"
       date = "Date"
       category = "Category"
       buttonText = "Close project"
@@ -127,7 +127,7 @@ googleAnalytics = ""
   [params.about]
     enable = true
     title = "About"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    subtitle = "Find out how we've come to be."
     endpoint = "Be part<br>of our<br>story!"
 
     # The events will be listed from the top to the bottom.
@@ -135,27 +135,21 @@ googleAnalytics = ""
     # Replace them with your own.
     [[params.about.events]]
       img = "1.jpg"
-      date = "2009-2011"
+      date = "2012-2014"
       title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      description = "We started as a group of friends that wanted to make a comic book series about our fictional alter egos."
 
     [[params.about.events]]
       img = "2.jpg"
-      date = "March 2011"
-      title = "An Agency is Born"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "October 2016"
+      title = "Nomniverse Releases Sombra"
+      description = "Sombra is released for Asylum Jam 2016."
 
     [[params.about.events]]
       img = "3.jpg"
-      date = "December 2012"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-    [[params.about.events]]
-      img = "4.jpg"
-      date = "July 2014"
-      title = "Phase Two Expansion"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "August 2017"
+      title = "Rebirth and Rebranding"
+      description = "On a whim, Nam decided to create a website for Nomniverse."
 
 
   # Team section
@@ -163,27 +157,26 @@ googleAnalytics = ""
     enable = true
     # Possibility to center items
     #center = true
-    title = "Our amazing team"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    title = "Who We Are"
+    subtitle = "We're a bunch of nerds with varying skills."
+    description = "As you can see, we have a varied group with a lot of different talents. Now to find the motivation to use it..."
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
       img = "1.jpg"
-      name = "Kay Garland"
-      position = "Lead Designer"
-      reportsTo = "CTO"
-      livesIn = "[Munich, Germany](#some-maps-url)"
-      scope = [
-        "UX for [member dashboard](#)",
-        "Maintainer for [awesome-project](#)",
-        "Open Source [community management](#)"
-      ]
+      name = "Nam Tran"
+      position = "Lead Programmer"
+    #  reportsTo = "CTO"
+      livesIn = "[Washington, DC](#some-maps-url)"
+    #  scope = [
+    #    "UX for [member dashboard](#)",
+    #    "Maintainer for [awesome-project](#)",
+    #    "Open Source [community management](#)"
+    #  ]
       # For bio markdown and even multiline strings are available.
-      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
-She worked at Pied Piper for years until they went belly up."""
+      bio = """Nam is a biomedical engineering major with a knack for programming."""
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
@@ -192,8 +185,9 @@ She worked at Pied Piper for years until they went belly up."""
 
     [[params.team.members]]
       img = "2.jpg"
-      name = "Larry Parker"
-      position = "Lead Marketer"
+      name = "Taylor Lauer"
+      position = "Lead Graphics Designer"
+	  bio = """To be made."""
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
@@ -202,8 +196,9 @@ She worked at Pied Piper for years until they went belly up."""
 
     [[params.team.members]]
       img = "3.jpg"
-      name = "Diana Pertersen"
-      position = "Lead Developer"
+      name = "Nick Kelly"
+      position = "Lead Storyboarder"
+	  bio = """To be made."""
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
@@ -212,7 +207,7 @@ She worked at Pied Piper for years until they went belly up."""
 
   # Client section
     [params.clients_list]
-      enable = true
+      enable = false
       # Possibility to center items
       #center = true
       # Optional client title specifying the involvement
@@ -241,7 +236,7 @@ She worked at Pied Piper for years until they went belly up."""
   [params.contact]
     enable = true
     title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
+    subtitle  = "Got suggestions or a cool idea? We'd love to hear it."
     buttonText = "Send message"
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -262,7 +257,7 @@ She worked at Pied Piper for years until they went belly up."""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    email = "nomniverse@gmail.com"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
@@ -297,24 +292,24 @@ She worked at Pied Piper for years until they went belly up."""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Published under the Apache License 2.0."
+    copyright = "Copyright Nomniverse 2017"
 
     [[params.footer.social]]
       icon = "fa-twitter"
-      link = "#"
+      link = "https://twitter.com/nomniverse/"
 
     [[params.footer.social]]
       icon = "fa-facebook"
-      link = "#"
+      link = "https://facebook.com/nomniverse/"
 
     [[params.footer.social]]
       icon = "fa-linkedin"
       link = "#"
 
-    [[params.footer.quicklinks]]
-      text = "Privacy Policy"
-      link = "#"
-
-    [[params.footer.quicklinks]]
-      text = "Terms of Use"
-      link = "#"
+#    [[params.footer.quicklinks]]
+#      text = "Privacy Policy"
+#      link = "#"
+#
+#    [[params.footer.quicklinks]]
+#      text = "Terms of Use"
+#      link = "#"
